@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(255, 255, 255);
+}
+
+header{
+    padding:10px;
+    background-color: rgb(217, 236, 243);
+    color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+header h1{
+    display: inline-block;
+    font-size: 44px;
+}
+
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    
+}
+header nav ul{
+    list-style-type:none;
+}
+header nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+    font-size: large;
+}
+
+.hero img {
+    height:max-content
+}
+
+/*add picture*/
+.hero {
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+}
+.about {
+    padding: 100px;
+    margin-bottom: auto;
+    width: 350px;
+    line-height: 150%;
+}
+
+.skills {
+    text-align: center;
+    padding:13px;
+    background-color: rgb(217, 236, 243);
+    color: rgb(0, 0, 0);
+}
+
+.portfolio h2 {
+    text-align: center;
+}
+/* add actuall completed projects and look at css elements */
+.project1 {
+    text-align: center;
+}
+
+.otherproj{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project2{
+    padding: 20px;
+}
+.project3 {
+    padding: 20px;
+}
+.project4{
+    padding: 20px;
+}
